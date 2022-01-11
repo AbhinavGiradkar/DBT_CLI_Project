@@ -22,7 +22,7 @@ models:
   - name: CustomerOrders
         description: "A starter dbt model"
     columns:
-      - name: id
+      - name: c_custkey
         description: "The primary key for this table"
         tests:
           - unique
